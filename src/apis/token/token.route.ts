@@ -4,7 +4,7 @@ import asyncHandler from "../../middlewares/async.handler";
 import { TokenController } from "./token.controller";
 import { askToken, paramToken  } from "./token.validator";
 
-
+//routing
 const router = Router()
 
 router.route('/ask')

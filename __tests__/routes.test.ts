@@ -1,4 +1,4 @@
-// End To End Test
+// End To End Testing
 import request from 'supertest'
 import app from '../src/index'
 describe('Post Endpoints', () => {

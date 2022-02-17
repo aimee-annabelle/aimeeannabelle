@@ -21,7 +21,7 @@ app.get('/', (req,res)=>{
 app.use('/api', api);
 app.use(joiErrors());
 
-const PORT = 4001;
+const PORT = 8000;
 
 app.listen(process.env.PORT || PORT, (): void => console.log(`Server listening on Port ${PORT}`));
 

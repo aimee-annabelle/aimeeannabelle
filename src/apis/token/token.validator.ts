@@ -1,5 +1,5 @@
 import { celebrate, Joi } from "celebrate";
-
+// validate token
 export const askToken = Joi.object().keys({
     amount: Joi.number().min(100).required(),
     meter_number: Joi.number().min(100000).max(999999).required(),

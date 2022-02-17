@@ -1,5 +1,4 @@
 // Unit Test
-
 import moment from 'moment'
 import {calculateExpirationDate} from '../src/helpers/calculations'
 describe('Post Endpoints', () => {
